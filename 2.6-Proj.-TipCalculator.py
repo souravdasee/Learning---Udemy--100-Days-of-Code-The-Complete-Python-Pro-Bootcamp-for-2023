@@ -3,8 +3,8 @@
 #Round the result to 2 decimal places.
 print("Welcome to the tip calculator!")
 bill = float(input("What was the total bill? $"))
-tip = int(input("How much tip would you like to give? "))
-people = int(input("How many people to split the bill?"))
+tip = int(input("How much tip (in %) would you like to give? "))
+people = int(input("How many people to split the bill? "))
 
 #long form
 tip_as_percent = tip / 100
@@ -18,6 +18,6 @@ final_amount = round(bill_per_person, 2)
 #You can use this link to figure out how to do this:
 #https://www.kite.com/python/answers/how-to-print-a-float-with-two-decimal-places-in-python
 #This is how you can implement it:
-final_amount = "{:.2f}".format(bill_per_person)     #>>>>>>>> You can use any of Line no. 21 or 22 to get exact 2 decimal values.
+final_amount = "{:.2f}".format(bill_per_person) #>>>>>>>> You can use any of Line no. 21 or 22 to get exact two decimal values.
 #print(f"{bill_per_person:.2f}")
 print(f"Each person should pay: ${final_amount}")
