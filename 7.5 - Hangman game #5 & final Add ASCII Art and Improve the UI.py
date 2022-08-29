@@ -6,3 +6,5 @@
 # Goto this link to get to know about the project - https://replit.com/@souravdasee/Day-7-Hangman-5-End#main.py
 
 # And goto this link to get final full Hangman Game - https://replit.com/@souravdasee/Day-7-Hangman-Final#main.py
+
+# Here you can find all sections together - https://replit.com/@souravdasee?path=folder/Hangman%20Game
