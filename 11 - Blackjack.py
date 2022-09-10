@@ -125,4 +125,5 @@ while input("Do you want to play a game of Blackjack? Type 'y' or 'n': ") == "y"
   clear()
   play_game()
 
+# To know about basics follow this 1. https://developers.google.com/edu/python/lists#list-methods & 2. https://docs.python.org/3/library/functions.html#sum
 # To run this code goto this page> https://replit.com/@souravdasee/Blackjack#main.py
